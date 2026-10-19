@@ -1,0 +1,23 @@
+# 数据与中间产物（体积大，不进版本库）
+# 原始语料：课程提供（39 MB），train/val.bin 由 data/prepare.py 现场生成（58 MB / 6.4 MB）
+lab1/data/*.jsonl
+lab1/data/*.bin
+
+# 训练产物：检查点 565 MB（推理格会用，但请从云盘/作业提交渠道同步）
+lab1/out/
+lab1/tb/
+*.pt
+远程运行结果/ckpt.pt
+
+# 报告封面用的个人信息（姓名/学号）只存本地，不进公开库
+report/report_meta.json
+
+# 生成的报告/pdf（含姓名与学号，不进公开库）
+report/自然语言处理-实验一-*.docx
+report/*.pdf
+
+# 系统与编辑器
+.DS_Store
+__MACOSX/
+.ipynb_checkpoints/
+*.swp

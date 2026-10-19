@@ -1,0 +1,11 @@
+{
+  "python.defaultInterpreterPath": "/opt/homebrew/Caskroom/miniconda/base/envs/nlplab/bin/python",
+  "python-envs.defaultEnvManager": "ms-python.python:conda",
+  "python-envs.pythonProjects": [
+    {
+      "path": "lab1",
+      "envManager": "ms-python.python:conda",
+      "packageManager": "ms-python.python:conda"
+    }
+  ]
+}
